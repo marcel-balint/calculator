@@ -23,7 +23,7 @@ body{
 button{
     padding: 5px;
     cursor: pointer;
-    width: 65px;
+    width: 66px;
     height: 70px;
     font-size: 25px;
     cursor: pointer;
@@ -34,7 +34,6 @@ button{
     margin-top: 4px;
 }
 button:active {
-    font-size: 27px;
     color: #fff;
 }
 
@@ -65,7 +64,9 @@ button{
 .equal{
     width: 174px;
 }
-
+.divide {
+    width: 173px;
+}
 .divide,
 .multiply,
 .substract,
