@@ -23,6 +23,7 @@ const numbers = document.querySelectorAll(".nr");
 const equal = document.querySelector(".equal");
 const clear = document.querySelector(".clear");
 const operation = document.querySelectorAll(".operation");
+const del = document.querySelector(".backspace");
 
 let x;
 let y;
@@ -53,8 +54,10 @@ clear.addEventListener("click", e => {
     y = null;
 })
 
-
-
+//backspace
+del.addEventListener("click",() => {
+    display.textContent = display.textContent.slice(0, display.innerHTML.length-1)
+})
 
 //storing operators
 operation.forEach(button => {
